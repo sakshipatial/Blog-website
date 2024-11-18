@@ -14,7 +14,7 @@ class AuthService{
     this.account=new Account(this.client);
    }
 
-   async createAccount({email, password,name}){
+   async createAccount({email, password, name}){
      try {
         const userAccount= await this.account.create(ID.unique(),email,password,name);
         console.log(userAccount)
@@ -26,7 +26,7 @@ class AuthService{
       
    }
 catch(error){
-    throw error;
+    throw error;  
 }}
 
 async login({email,password}){
