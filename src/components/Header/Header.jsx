@@ -41,7 +41,7 @@ function Header() {
       <nav className="container mx-auto p-4 flex justify-between items-center">
         {/* Logo / Home Link */}
         <div>
-          <Link href="/" className="text-xl font-bold text-gray-800 hover:text-gray-600">Home</Link>
+          <Link to="/" className="text-xl font-bold text-gray-800 hover:text-gray-600">Home</Link>
         </div>
 
         {/* Navigation Links */}

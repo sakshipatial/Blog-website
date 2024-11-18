@@ -12,6 +12,7 @@ import Logo from './Logo'
 import PostForm from './post-form/PostForm'
 import Container from '../components/container/Container'
 import RTE from './RTE'
+import PostCard from './PostCard'
 export  {
     Header,
     LogOutBtn,
@@ -26,5 +27,6 @@ export  {
     Logo,
     PostForm,
     Container,
-    RTE
+    RTE,
+    PostCard
 }
